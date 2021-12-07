@@ -1,0 +1,6 @@
+framework module Pods_Ruler_RulerUITests {
+  umbrella header "Pods-Ruler-RulerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
