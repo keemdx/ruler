@@ -30,6 +30,7 @@ class RulerControl: UIControl {
         view.backgroundColor = .black
         view.layer.cornerRadius = 2.5
         view.layer.masksToBounds = true
+        view.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMinXMaxYCorner, .layerMaxXMaxYCorner)
         return view
     }()
     
@@ -108,7 +109,7 @@ class RulerControl: UIControl {
         addSubview(indicatorView)
         
         indicatorView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(-2)
+            make.top.equalToSuperview().offset(0)
             make.centerX.equalToSuperview()
             make.width.equalTo(5)
             make.height.equalTo(45)
