@@ -6,4 +6,4 @@ Sliding ruler control component.
 Screenshots
 -----------
 <br>
-<img src = "Ruler/screenshot_1.gif" width=280">
+<img src="Ruler/screenshot_1.gif" width="300">
